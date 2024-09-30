@@ -37,7 +37,7 @@ game.onUpdate(function (){
     info.changeScoreBy(1)
 })
 
-game.onUpdateInterval(1000, function() {
+game.onUpdateInterval(Math.randomRange(800, 1200), function() {
     let projectile = sprites.createProjectileFromSprite(img`
         dddddddddddddddd
         dddddddddddddddd
