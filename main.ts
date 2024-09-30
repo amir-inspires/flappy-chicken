@@ -17,10 +17,7 @@ scene.setBackgroundColor(9)
      . . 1 1 4 1 1 4 1 . . . . . . .
      . . . . 4 4 . 4 4 4 . . . . . .
  `, SpriteKind.Player)
-// flipping the image
-// const flipped = mySprite.image.clone()
-// flipped.flipX()
-// mySprite.setImage(flipped)
+
 mySprite.x = 20
 mySprite.ay = 200 // vertical acceleration
 
